@@ -1,0 +1,20 @@
+@media (max-width: 678px) {
+  nav ul {
+    display: none;
+  }
+}
+@media (min-width: 678px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .label span {
+    font-size: 2rem;
+  }
+  .label h1 {
+    font-size: 3.5rem;
+  }
+  aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
